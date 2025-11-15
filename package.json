@@ -1,0 +1,16 @@
+{
+  "name": "wallpaper",
+  "version": "1.0.1",
+  "main": "main.js",
+  "type": "module",
+  "author": "leo.olmi",
+  "url": "https://github.com/leolmi/wallpaper",
+  "scripts": {
+  },
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "image-downloader": "^4.3.0",
+    "wallpaper": "^7.2.1"
+  }
+}
