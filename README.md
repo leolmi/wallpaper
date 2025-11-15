@@ -4,7 +4,7 @@ imposta l'immagine giornaliera come sfondo del desktop salvandola
 in locale nel folder designato
 
 ````
-$ node main.js [--path="path/to/image"] [--size=3840x2400] [--screen=all] [--scale=span] [--date=20251110] [--reset=true]
+$ node main.js [--path="path/to/image"] [--size=3840x2400] [--screen=all] [--scale=span] [--date=20251110] [--reset]
 ````
 
 **Arguments**:
@@ -13,4 +13,4 @@ $ node main.js [--path="path/to/image"] [--size=3840x2400] [--screen=all] [--sca
 - `--screen`: impostazione schermo (default: `all`, available: `all`, `main`);
 - `--scale`: scalatura (default: `span`, available: `center`, `tile`, `stretch`, `fit`, `fill`, `span`);
 - `--date`: imposta l'immagine alla data (default: calcolata sulla data corrente, available format: `yyyymmdd`);
-- `--reset`: attiva refresh per bug windows nel caso di multi schermo (default: assente, available: `true`, `false`);
+- `--reset`: attiva refresh per bug windows nel caso di multi schermo (default: assente);
