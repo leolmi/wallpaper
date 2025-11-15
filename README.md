@@ -1,6 +1,6 @@
 # WALLPAPER
 
-imposta l'immagine giornaliera di Bing come sfondo del desktop salvandola
+imposta l'immagine giornaliera come sfondo del desktop salvandola
 in locale nel folder designato
 
 ````
