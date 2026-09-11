@@ -1,16 +1,37 @@
 {
   "name": "wallpaper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "main.js",
   "type": "module",
-  "author": "leo.olmi",
-  "url": "https://github.com/leolmi/wallpaper",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:local": "sh ./install-local.sh"
   },
+  "author": "leo.olmi",
   "license": "MIT",
   "description": "",
   "dependencies": {
     "image-downloader": "^4.3.0",
     "wallpaper": "^7.2.1"
-  }
+  },
+  "preferGlobal": true,
+  "bin": {
+    "wp": "main.js"
+  },
+  "keywords": [
+    "wallpaper",
+    "wp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leolmi/wallpaper"
+  },
+  "files": [
+    "main.js",
+    "settings.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "url": "https://github.com/leolmi/wallpaper"
 }
